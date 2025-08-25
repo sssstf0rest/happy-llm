@@ -15,9 +15,7 @@ class ModelArgs:
     vocab_size: int
     block_size: int
     n_layer: int
-
     
-
 class MultiHeadAttention(nn.Module):
 
     def __init__(self, args: ModelArgs, is_causal=False):
